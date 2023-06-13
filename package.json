@@ -1,0 +1,23 @@
+{
+  "name": "testpack",
+  "version": "1.0.0",
+  "description": "demo_run",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "description"
+  ],
+  "author": "aravindbalaji",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.12.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
+}
