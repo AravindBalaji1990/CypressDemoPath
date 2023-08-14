@@ -18,10 +18,10 @@ module.exports = defineConfig({
     watchForFileChanges: true,
     embeddedScreenshots: true
   },
-  retries: {
-    // npx cypress run
-    "runMode": 2,
-    // npx cypress open
-    "openMode": 2
-  }
+  // retries: {
+  //   // npx cypress run
+  //   "runMode": 2,
+  //   // npx cypress open
+  //   "openMode": 2
+  // }
 });

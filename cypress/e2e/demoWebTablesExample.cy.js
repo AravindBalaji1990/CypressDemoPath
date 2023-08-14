@@ -12,7 +12,7 @@ cy.get('#product').first().scrollIntoView();
 cy.get("tr td:nth-child(2)").each(($el, index, text)=>{
     const data = $el.text()
     if(data.includes("JMETER")){
-        cy.get("tr td:nth-child(2)").eq(index).next().then(function(price)
+        cy.get(     "tr td:nth-child(2)").eq(index).next().then(function(price)
         {
             const pricetext = price.text()
             expect(pricetext).to.equal('25')
